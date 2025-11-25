@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en"> <meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v5.16.0"><!-- Primary Meta Tags --><title>Markdown Style Guide | Mono Lume</title><meta name="title" content="Markdown Style Guide | Mono Lume"><meta name="description" content="A comprehensive demo post to showcase how markdown elements render in the Astro blog."><!-- google fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/about.D_sppk2I.css"><body> <header class="fixed top-0 w-full z-50" data-astro-cid-3ef6ksr2> <div class="container mx-auto flex items-center justify-between p-6" data-astro-cid-3ef6ksr2> <a href="/" class="font-bold font-plex text-4xl" data-astro-cid-3ef6ksr2>M.</a> <nav class="space-x-3 text-secondary hidden md:block" data-astro-cid-3ef6ksr2> <a href="/" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Home </a><a href="/about" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> About </a><a href="/projects" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Work </a><a href="/blog" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Blog </a><a href="/contact" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Contact </a> </nav> <button id="menu-toggle" class="hamburger focus:outline-none flex md:hidden" aria-label="Toggle navigation" data-astro-cid-3ef6ksr2> <span class="hamburger-line" data-astro-cid-3ef6ksr2></span> <span class="hamburger-line" data-astro-cid-3ef6ksr2></span> <span class="hamburger-line" data-astro-cid-3ef6ksr2></span> </button> </div> <div id="menu-mobile" class="hidden md:hidden space-x-3 text-secondary bg-background backdrop-blur-2xl w-screen p-4" data-astro-cid-3ef6ksr2> <nav class="flex flex-col gap-4 text-2xl" data-astro-cid-3ef6ksr2> <a href="/" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Home </a><a href="/about" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> About </a><a href="/projects" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Work </a><a href="/blog" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Blog </a><a href="/contact" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Contact </a> </nav> </div> </header>  <script type="module">document.addEventListener("DOMContentLoaded",()=>{const t=document.getElementById("menu-mobile"),e=document.getElementById("menu-toggle");e?.addEventListener("click",()=>{t?.classList.toggle("hidden"),e.classList.toggle("active");const n=e.classList.contains("active");e.setAttribute("aria-expanded",String(n))})});</script> <div class="min-h-screen w-full relative"> <div class="fixed inset-0 -z-50 bg-background" style="background-image:radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.10) 1px, transparent 0);background-size:25px 25px"></div>  <div class="container mx-auto space-y-8 pt-18 px-6"> <button class="flex gap-2 items-center text-secondary hover:text-primary cursor-pointer pl-2 my-6" title="back" id="back-button"> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left-icon lucide-move-left"><path d="M6 8L2 12L6 16"></path><path d="M2 12H22"></path></svg> <span>Back</span> </button> <div class="flex justify-between md:items-center pb-4 border-b border-dashed border-secondary gap-4 flex-col md:flex-row"> <div class="space-y-4"> <h1 class="heading text-3xl md:text-5xl uppercase"> Markdown Style Guide </h1> <p>A comprehensive demo post to showcase how markdown elements render in the Astro blog.</p> <p class="text-secondary"> <time datetime="2025-02-24T00:00:00.000Z"> February 24, 2025 </time> </p> </div> </div>  <article class="px-3 flex-2 mx-auto mb-18"> <h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<p>This is a <strong>bold</strong> word, this is <em>italic</em>, and this is <code>inline code</code>.</p>
+<p>Here’s a paragraph of filler text to check line spacing.<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+Another line to see how paragraphs stack.</p>
+<hr>
+<h2 id="lists">Lists</h2>
+<h3 id="unordered-list">Unordered List</h3>
+<ul>
+<li>Item one</li>
+<li>Item two
+<ul>
+<li>Nested item</li>
+<li>Another nested</li>
+</ul>
+</li>
+<li>Item three</li>
+</ul>
+<h3 id="ordered-list">Ordered List</h3>
+<ol>
+<li>First</li>
+<li>Second
+<ol>
+<li>Nested first</li>
+<li>Nested second</li>
+</ol>
+</li>
+<li>Third</li>
+</ol>
+<hr>
+<h2 id="blockquotes">Blockquotes</h2>
+<blockquote>
+<p>“This is a blockquote. It’s great for highlighting quotes or notes.”<br>
+— Someone Smart</p>
+</blockquote>
+<hr>
+<h2 id="code-blocks">Code Blocks</h2>
+<p>Here’s a fenced code block:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="js"><code><span class="line"><span style="color:#F97583">function</span><span style="color:#B392F0"> greet</span><span style="color:#E1E4E8">(</span><span style="color:#FFAB70">name</span><span style="color:#E1E4E8">) {</span></span>
+<span class="line"><span style="color:#F97583">  return</span><span style="color:#9ECBFF"> `Hello, ${</span><span style="color:#E1E4E8">name</span><span style="color:#9ECBFF">}!`</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span>
+<span class="line"><span style="color:#E1E4E8">console.</span><span style="color:#B392F0">log</span><span style="color:#E1E4E8">(</span><span style="color:#B392F0">greet</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">"World"</span><span style="color:#E1E4E8">));</span></span></code></pre>
+<hr>
+<h2 id="links-and-images">Links and Images</h2>
+<p>Here’s a link to <a href="https://astro.build">Astro</a>.</p>
+<p>And here’s an image:</p>
+<p><img src="https://placehold.co/600x400?text=Astro+Blog" alt="Placeholder Image"></p>
+<p>Inline image example: <img src="https://placehold.co/100x100" alt="Tiny">.</p>
+<hr>
+<h2 id="tables">Tables</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Syntax</th><th>Description</th></tr></thead><tbody><tr><td>Header</td><td>Title</td></tr><tr><td>Cell</td><td>Content</td></tr><tr><td>Cell 2</td><td>More</td></tr></tbody></table>
+<hr>
+<h2 id="horizontal-rule">Horizontal Rule</h2>
+<p>That line above is a horizontal rule.
+Below is another:</p>
+<hr>
+<p>End of style guide.</p> </article> </div> <script>
+    document.getElementById("back-button").addEventListener("click", () => {
+      window.history.back();
+    });
+  </script>  </div> <footer class="bg-primary container mx-auto rounded-t-[80px] p-10 space-y-8"> <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6"> <h2 class="text-5xl lg:text-9xl uppercase">Mono Lume</h2> <p class="text-2xl lg:text-3xl max-w-[760px]">
+Simplicity is the ultimate sophistication — especially in code.
+</p> </div> <div class="flex flex-col sm:flex-row sm:flex-wrap justify-between gap-10"> <div> <h3 class="mb-2 text-xl">Contact</h3> <ul> <li><a href="mailto:someone@example.com">hi@monolume.com</a></li> </ul> </div> <div> <h3 class="mb-2 text-xl">Navigation</h3> <ul class="space-y-1 text-secondary"> <li><a href="/">Home</a></li> <li><a href="/about">About</a></li> <li><a href="/blog">Blog</a></li> <li><a href="/projects">Projects</a></li> <li><a href="/contact">Contact</a></li> </ul> </div> <div> <h3 class="mb-2 text-xl">Socials</h3> <ul class="space-y-1 text-secondary"> <li> <a href="https://x.com/your_username">X</a> </li><li> <a href="https://linkedin.com/">Linkedin</a> </li><li> <a href="https://github.com/your_username">Github</a> </li> </ul> </div> <div> <h3 class="mb-2 text-xl">Projects</h3> <ul class="space-y-1 text-secondary"> <li> <a href="/projects/formsync">FormSync</a> </li><li> <a href="/projects/promptsmith">PromptSmith</a> </li><li> <a href="/projects/zentrack">ZenTrack</a> </li> </ul> </div> </div> <span class="block text-center text-sm opacity-70">
+© Mono Lume. Built with Astro
+</span> </footer> </body></html>

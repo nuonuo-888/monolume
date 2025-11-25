@@ -4,9 +4,11 @@ import { defineConfig } from "astro/config";
 
 import { SITE } from "./src/consts";
 import sitemap from "@astrojs/sitemap";
+import edgeoneAdapter from "@edgeone/astro";
 
 // https://astro.build/config
 export default defineConfig({
+  adapter: edgeoneAdapter(),
   site: SITE.URL,
   vite: {
     plugins: [tailwindcss()],

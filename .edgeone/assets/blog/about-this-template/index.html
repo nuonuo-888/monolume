@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en"> <meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v5.16.0"><!-- Primary Meta Tags --><title>About This Template | Mono Lume</title><meta name="title" content="About This Template | Mono Lume"><meta name="description" content="A README-style post that explains how to use and customize the blog template."><!-- google fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/_astro/about.D_sppk2I.css"><body> <header class="fixed top-0 w-full z-50" data-astro-cid-3ef6ksr2> <div class="container mx-auto flex items-center justify-between p-6" data-astro-cid-3ef6ksr2> <a href="/" class="font-bold font-plex text-4xl" data-astro-cid-3ef6ksr2>M.</a> <nav class="space-x-3 text-secondary hidden md:block" data-astro-cid-3ef6ksr2> <a href="/" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Home </a><a href="/about" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> About </a><a href="/projects" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Work </a><a href="/blog" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Blog </a><a href="/contact" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Contact </a> </nav> <button id="menu-toggle" class="hamburger focus:outline-none flex md:hidden" aria-label="Toggle navigation" data-astro-cid-3ef6ksr2> <span class="hamburger-line" data-astro-cid-3ef6ksr2></span> <span class="hamburger-line" data-astro-cid-3ef6ksr2></span> <span class="hamburger-line" data-astro-cid-3ef6ksr2></span> </button> </div> <div id="menu-mobile" class="hidden md:hidden space-x-3 text-secondary bg-background backdrop-blur-2xl w-screen p-4" data-astro-cid-3ef6ksr2> <nav class="flex flex-col gap-4 text-2xl" data-astro-cid-3ef6ksr2> <a href="/" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Home </a><a href="/about" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> About </a><a href="/projects" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Work </a><a href="/blog" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Blog </a><a href="/contact" class="hover:border-b-2 hover:border-dashed hover:border-secondary pb-0.5" data-astro-cid-3ef6ksr2> Contact </a> </nav> </div> </header>  <script type="module">document.addEventListener("DOMContentLoaded",()=>{const t=document.getElementById("menu-mobile"),e=document.getElementById("menu-toggle");e?.addEventListener("click",()=>{t?.classList.toggle("hidden"),e.classList.toggle("active");const n=e.classList.contains("active");e.setAttribute("aria-expanded",String(n))})});</script> <div class="min-h-screen w-full relative"> <div class="fixed inset-0 -z-50 bg-background" style="background-image:radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.10) 1px, transparent 0);background-size:25px 25px"></div>  <div class="container mx-auto space-y-8 pt-18 px-6"> <button class="flex gap-2 items-center text-secondary hover:text-primary cursor-pointer pl-2 my-6" title="back" id="back-button"> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left-icon lucide-move-left"><path d="M6 8L2 12L6 16"></path><path d="M2 12H22"></path></svg> <span>Back</span> </button> <div class="flex justify-between md:items-center pb-4 border-b border-dashed border-secondary gap-4 flex-col md:flex-row"> <div class="space-y-4"> <h1 class="heading text-3xl md:text-5xl uppercase"> About This Template </h1> <p>A README-style post that explains how to use and customize the blog template.</p> <p class="text-secondary"> <time datetime="2025-02-26T00:00:00.000Z"> February 26, 2025 </time> </p> </div> </div>  <article class="px-3 flex-2 mx-auto mb-18"> <h1 id="about-this-template">About This Template</h1>
+<p>This post acts like a <strong>README</strong> for the template. It explains the basics of how the template works and where you can make changes.</p>
+<hr>
+<h2 id="folder-structure">Folder Structure</h2>
+<p>A typical Astro content setup might look like this:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="txt"><code><span class="line"><span>src/</span></span>
+<span class="line"><span>  components/     # UI components</span></span>
+<span class="line"><span>  layouts/        # Page layouts</span></span>
+<span class="line"><span>  pages/          # Route-based pages</span></span>
+<span class="line"><span>  content/</span></span>
+<span class="line"><span>    blog/         # Markdown/MDX blog posts</span></span>
+<span class="line"><span>    projects/     # Markdown/MDX projects</span></span></code></pre>
+<hr>
+<h2 id="writing-posts">Writing Posts</h2>
+<p>Posts live in the <code>src/content/blog/</code> folder.
+Each post needs <strong>frontmatter</strong> at the top, like this:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="yaml"><code><span class="line"><span style="color:#B392F0">---</span></span>
+<span class="line"><span style="color:#85E89D">title</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"My Post"</span></span>
+<span class="line"><span style="color:#85E89D">description</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"A short summary."</span></span>
+<span class="line"><span style="color:#85E89D">date</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"2025-02-20"</span></span>
+<span class="line"><span style="color:#85E89D">tags</span><span style="color:#E1E4E8">:</span></span>
+<span class="line"><span style="color:#E1E4E8">  - </span><span style="color:#9ECBFF">Example</span></span>
+<span class="line"><span style="color:#E1E4E8">  - </span><span style="color:#9ECBFF">Demo</span></span>
+<span class="line"><span style="color:#B392F0">---</span></span></code></pre>
+<h2 id="adding-projects">Adding Projects</h2>
+<p>Projects live in the <code>src/content/projects/</code> folder.
+Each project needs <strong>frontmatter</strong> at the top, like this:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="yaml"><code><span class="line"><span style="color:#B392F0">---</span></span>
+<span class="line"><span style="color:#85E89D">title</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"FormSync"</span></span>
+<span class="line"><span style="color:#85E89D">description</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"Serverless forms with instant email notifications, reCAPTCHA, and zero backend. Just drop in a &#x3C;form>."</span></span>
+<span class="line"><span style="color:#85E89D">liveUrl</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">https://example.com</span></span>
+<span class="line"><span style="color:#85E89D">githubUrl</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">https://github.com</span></span>
+<span class="line"><span style="color:#85E89D">image</span><span style="color:#E1E4E8">: { </span><span style="color:#85E89D">url</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"/formsync.jpeg"</span><span style="color:#E1E4E8">, </span><span style="color:#85E89D">alt</span><span style="color:#E1E4E8">: </span><span style="color:#9ECBFF">"FormSync thumbnail"</span><span style="color:#E1E4E8"> }</span></span>
+<span class="line"><span style="color:#B392F0">---</span></span></code></pre>
+<h2 id="styling-notes">Styling Notes</h2>
+<ul>
+<li>Images should be placed in <code>public/</code> or loaded from a URL.</li>
+<li>Markdown supports <strong>headings, lists, blockquotes, tables, and code</strong> — see the <a href="/blog/markdown-style-guide">Markdown Style Guide</a>.</li>
+<li>Default placeholder images will show if no thumbnail is provided.</li>
+</ul>
+<hr>
+<h2 id="development">Development</h2>
+<p>To run the project locally:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="bash"><code><span class="line"><span style="color:#B392F0">pnpm</span><span style="color:#9ECBFF"> install</span></span>
+<span class="line"><span style="color:#B392F0">pnpm</span><span style="color:#9ECBFF"> run</span><span style="color:#9ECBFF"> dev</span></span></code></pre>
+<p>Then visit <code>http://localhost:4321</code> to preview the site.</p>
+<hr>
+<h2 id="customization">Customization</h2>
+<p>You can edit:</p>
+<ul>
+<li><strong>Colors and fonts</strong> → via <code>global.css</code></li>
+<li><strong>Layout</strong> → in <code>src/layouts/</code></li>
+<li><strong>Components</strong> → in <code>src/components/</code></li>
+</ul>
+<hr>
+<h2 id="closing">Closing</h2>
+<p>This template is meant to be a clean starting point for a portfolio.
+Feel free to <strong>remove this post</strong> once you’re ready to publish real content.</p> </article> </div> <script>
+    document.getElementById("back-button").addEventListener("click", () => {
+      window.history.back();
+    });
+  </script>  </div> <footer class="bg-primary container mx-auto rounded-t-[80px] p-10 space-y-8"> <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6"> <h2 class="text-5xl lg:text-9xl uppercase">Mono Lume</h2> <p class="text-2xl lg:text-3xl max-w-[760px]">
+Simplicity is the ultimate sophistication — especially in code.
+</p> </div> <div class="flex flex-col sm:flex-row sm:flex-wrap justify-between gap-10"> <div> <h3 class="mb-2 text-xl">Contact</h3> <ul> <li><a href="mailto:someone@example.com">hi@monolume.com</a></li> </ul> </div> <div> <h3 class="mb-2 text-xl">Navigation</h3> <ul class="space-y-1 text-secondary"> <li><a href="/">Home</a></li> <li><a href="/about">About</a></li> <li><a href="/blog">Blog</a></li> <li><a href="/projects">Projects</a></li> <li><a href="/contact">Contact</a></li> </ul> </div> <div> <h3 class="mb-2 text-xl">Socials</h3> <ul class="space-y-1 text-secondary"> <li> <a href="https://x.com/your_username">X</a> </li><li> <a href="https://linkedin.com/">Linkedin</a> </li><li> <a href="https://github.com/your_username">Github</a> </li> </ul> </div> <div> <h3 class="mb-2 text-xl">Projects</h3> <ul class="space-y-1 text-secondary"> <li> <a href="/projects/formsync">FormSync</a> </li><li> <a href="/projects/promptsmith">PromptSmith</a> </li><li> <a href="/projects/zentrack">ZenTrack</a> </li> </ul> </div> </div> <span class="block text-center text-sm opacity-70">
+© Mono Lume. Built with Astro
+</span> </footer> </body></html>
