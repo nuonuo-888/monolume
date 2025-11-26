@@ -13,11 +13,7 @@ One-click deploy this starter to Tencent EdgeOne Pages (installs, builds, and se
 
 [![Preview](https://img.shields.io/badge/Preview-4ECCA3?style=for-the-badge&logo=globe&logoColor=white)](https://monolume.edgeone.app/)
 
-## Demo
-
-[Live Preview](https://monolume.vercel.app)
-
-✨ Features
+## ✨ Features
 
 - Minimal, bold typography
 - Responsive & mobile-friendly
